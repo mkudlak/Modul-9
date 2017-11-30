@@ -1,0 +1,32 @@
+
+
+
+
+
+    *       // 4 spacje 1 gwiazdka
+   * *      // 3 spacje 2 gwiazdki
+  * * *     // 2 spacje 3 gwiazdki
+ * * * *    // 1 spacja 4 gwiazdki
+* * * * *   // 0 spacji 5 gwiazek
+
+Spacje zaczynaja od rzedu - 1   // 
+Ilosc rzedow - 5     //   
+
+Rzad 1 
+Spacje dla rzedu 1 = ilosc rzedow (5) - rzad 1 (1)
+Star = 1
+
+Rzad 2
+Spacje dla rzedu 2 = ilosc rzedow (5) - rzad 2 (2)
+Star = 2
+
+Rzad 3
+Spacje dla rzedu 3 = ilosc rzedow (5) - rzad 3 (3)
+Star = 3
+
+itd
+zaleznosc
+Spacje zmniejszaja sie o 1 = dekrementacja
+Star = inkrementacja , az do ilosci rzedow
+
+
