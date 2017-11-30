@@ -9,18 +9,21 @@ function drawTree() {
     for(var i = 1; i <= poziom; i++ ) {
         let stars = '';
 
-        for(let k = 1; k <= (poziom - 1 ); k++) {
-            stars += ' + ';
+        for (j = i; j < poziom; j++) {
+            stars += ' ';
+          }
+        
+        for (k = 0; k < (i * 2) - 1; k++) {
+            stars += '*';
+        
+        
+        
         }
-        
-        for(let j = 1; j <= i; j++) {
-            stars += ' * ';
-        }
-        
-        
-        console.log(stars);
-    }
-}  
-
-
+        console.log(stars);  
+    } 
+    
+}
 drawTree();
+
+
+
