@@ -1,25 +1,26 @@
-var branch = prompt('How many branch should the tree have? Choose from 1 branche to 20 branches');
-alert('You have choosen ' + branch + ' branches.');
 
 
 
 
-    var spacje = branch - 1;
-    var spaces = spacje;
+function drawTree() {
+    let poziom = 5;
+    let tree = '';
 
-    
-    var i = 1;
-    while (i <= branch) { 
-        var star = '';
-    
-        for (var x=0; x < i; x++) { 
-            star += ' * ';
-            
+    for(var i = 1; i <= poziom; i++ ) {
+        let stars = '';
+
+        for(let k = 1; k <= (poziom - 1 ); k++) {
+            stars += ' + ';
         }
-
- 
-
-    
-        console.log(star);
-        i++;
+        
+        for(let j = 1; j <= i; j++) {
+            stars += ' * ';
+        }
+        
+        
+        console.log(stars);
     }
+}  
+
+
+drawTree();
